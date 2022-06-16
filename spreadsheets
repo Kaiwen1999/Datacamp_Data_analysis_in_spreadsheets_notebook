@@ -3,3 +3,19 @@ the SQRT() function calculates the square root of its input.
 the MAX() and MIN() functions calculate the maximun value and minimum value of their inputs respectively.
 the SUM(), AVERAGE(), and MEDIAN() functions calculate the sum, avarage, and median of their inputs.
 the RANK() function gives you an idea how a value compares to other values in a range. # RANK(value, data, [is_ascending]) # use "<, >" to compare.
+the LEFT() and RIGHT() function could be used to manipulate the string. LEFT(string, [number_of_characters]), RIGHT(string, [number_of_characters]).
+the LEN() function evaluates to the number of characters of text.
+the SEARCH() function do the search. SEARCH(search for, text to search)
+the CONCATENATE() function combines one or more strings to a single string. CONCATENATE(string1, [string2, ...])
+the WEEKDAY() function evaluates to the day of the week of a date. WEEKDAY(date, [type]). type=0: monday is day1, sunday is day7. type=1, sunday is day1. type=3, monday is day0
+the DATADIF() function calculates the time difference between two dates. DATEDIF(start_date, end_date, unit). "Y", "M", "D", denotes number of years, month, and days respectivly.
+the IF() is a flow control function. IF(logical_expression, value_if_true, value_if_false). (could construct nested function)
+the OR(logical_expression1, [logical_expression2, ...]): this is the logical operator that returns TRUE if one of the expressions is TRUE and FALSE if and only if all of them are FALSE.
+the COUNTIF(range, criterion): count the number of times the criterion is met in the specified range.
+the SUMIF(range, criterion, sum_range): evaluates to the conditional sum across a range.
+the AVERAGEIF(range, criterion, average_range): evaluates to the conditional average across a range.
+FILTER(range, condition1, [condition2, ...]): evaluates to a filtered version of range, based on the passed conditions. condition1 here is substantially different from the criterion argument you're used to. condition1 is not a string, but rather a range of logical values.
+VLOOKUP(search_key, range, index, is_sorted): look for a match in the leftmost column of a lookup table and return the value in a certain column:
+search_key: the value to search for. range: the lookup table, without the headers. You typically use an absolute reference for this. index: the column number of the value to be returned
+HLOOKUP(search_key, range, index, is_sorted): similar to VLOOKUP but in a horizontal fashion. The key will be looked for in the uppermost row, and index now refers to the row number.
+SUMPRODUCT(array1, [array2, ...]): figure out the sum of products of 2 or more ranges of equal size.
