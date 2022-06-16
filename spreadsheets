@@ -8,7 +8,7 @@ the LEN() function evaluates to the number of characters of text.
 the SEARCH() function do the search. SEARCH(search for, text to search)
 the CONCATENATE() function combines one or more strings to a single string. CONCATENATE(string1, [string2, ...])
 the WEEKDAY() function evaluates to the day of the week of a date. WEEKDAY(date, [type]). type=0: monday is day1, sunday is day7. type=1, sunday is day1. type=3, monday is day0
-the DATADIF() function calculates the time difference between two dates. DATEDIF(start_date, end_date, unit). "Y", "M", "D", denotes number of years, month, and days respectivly.
+the DATEDIF() function calculates the time difference between two dates. DATEDIF(start_date, end_date, unit). "Y", "M", "D", denotes number of years, month, and days respectivly.
 the IF() is a flow control function. IF(logical_expression, value_if_true, value_if_false). (could construct nested function)
 the OR(logical_expression1, [logical_expression2, ...]): this is the logical operator that returns TRUE if one of the expressions is TRUE and FALSE if and only if all of them are FALSE.
 the COUNTIF(range, criterion): count the number of times the criterion is met in the specified range.
