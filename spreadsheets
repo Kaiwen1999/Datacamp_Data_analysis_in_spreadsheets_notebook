@@ -1,0 +1,5 @@
+the ROUND() function calculates the rounded value of its input.
+the SQRT() function calculates the square root of its input.
+the MAX() and MIN() functions calculate the maximun value and minimum value of their inputs respectively.
+the SUM(), AVERAGE(), and MEDIAN() functions calculate the sum, avarage, and median of their inputs.
+the RANK() function gives you an idea how a value compares to other values in a range. # RANK(value, data, [is_ascending]) # use "<, >" to compare.
